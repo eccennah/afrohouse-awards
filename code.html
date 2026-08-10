@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Afro House Awards - Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&amp;family=Hanken+Grotesk:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-tertiary-fixed-variant": "#474746",
+                      "surface-dim": "#131313",
+                      "surface": "#131313",
+                      "inverse-surface": "#e5e2e1",
+                      "on-primary-container": "#4d1900",
+                      "secondary-fixed": "#e6e2db",
+                      "inverse-on-surface": "#313030",
+                      "surface-variant": "#353534",
+                      "on-surface": "#e5e2e1",
+                      "on-secondary": "#31302c",
+                      "secondary-container": "#484742",
+                      "on-error-container": "#ffdad6",
+                      "on-tertiary-fixed": "#1b1c1c",
+                      "secondary": "#c9c6c0",
+                      "surface-bright": "#393939",
+                      "on-secondary-fixed": "#1c1c18",
+                      "surface-container-low": "#1c1b1b",
+                      "surface-tint": "#ffb596",
+                      "on-secondary-fixed-variant": "#484742",
+                      "on-primary": "#581e00",
+                      "tertiary": "#c8c6c5",
+                      "on-tertiary": "#303030",
+                      "primary-fixed-dim": "#ffb596",
+                      "primary-container": "#e2703a",
+                      "on-surface-variant": "#dec0b5",
+                      "on-primary-fixed": "#360f00",
+                      "tertiary-container": "#929090",
+                      "tertiary-fixed-dim": "#c8c6c5",
+                      "primary": "#ffb596",
+                      "surface-container-highest": "#353534",
+                      "surface-container": "#201f1f",
+                      "on-tertiary-container": "#2a2a2a",
+                      "surface-container-lowest": "#0e0e0e",
+                      "outline": "#a58b81",
+                      "on-secondary-container": "#b8b5ae",
+                      "inverse-primary": "#a1400a",
+                      "tertiary-fixed": "#e4e2e1",
+                      "secondary-fixed-dim": "#c9c6c0",
+                      "error": "#ffb4ab",
+                      "surface-container-high": "#2a2a2a",
+                      "error-container": "#93000a",
+                      "on-background": "#e5e2e1",
+                      "on-error": "#690005",
+                      "on-primary-fixed-variant": "#7d2d00",
+                      "primary-fixed": "#ffdbcd",
+                      "background": "#131313",
+                      "outline-variant": "#57423a"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "gutter": "24px",
+                      "lg": "48px",
+                      "base": "8px",
+                      "xs": "4px",
+                      "xl": "80px",
+                      "container-max": "1280px",
+                      "md": "24px",
+                      "sm": "12px"
+              },
+              "fontFamily": {
+                      "label-caps": [
+                              "Hanken Grotesk"
+                      ],
+                      "body-lg": [
+                              "Hanken Grotesk"
+                      ],
+                      "headline-lg-mobile": [
+                              "Syne"
+                      ],
+                      "button": [
+                              "Hanken Grotesk"
+                      ],
+                      "display": [
+                              "Syne"
+                      ],
+                      "body-md": [
+                              "Hanken Grotesk"
+                      ],
+                      "headline-md": [
+                              "Syne"
+                      ],
+                      "headline-lg": [
+                              "Syne"
+                      ]
+              },
+              "fontSize": {
+                      "label-caps": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.1em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "button": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "letterSpacing": "0.02em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "display": [
+                              "64px",
+                              {
+                                      "lineHeight": "72px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "800"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-md": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-lg": [
+                              "40px",
+                              {
+                                      "lineHeight": "48px",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "700"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<style>
+        .rhythmic-pattern-1 {
+            background-image: radial-gradient(circle at 2px 2px, rgba(226, 112, 58, 0.15) 1px, transparent 0);
+            background-size: 24px 24px;
+        }
+        .rhythmic-pattern-2 {
+            background-image: repeating-linear-gradient(45deg, rgba(226, 112, 58, 0.05) 0, rgba(226, 112, 58, 0.05) 2px, transparent 2px, transparent 12px);
+        }
+        .rhythmic-pattern-3 {
+            background-image: radial-gradient(circle at center, rgba(226, 112, 58, 0.1) 0%, transparent 70%);
+        }
+        
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md min-h-screen flex flex-col pt-20 pb-16 md:pb-0">
+<!-- TopAppBar -->
+<header class="bg-surface dark:bg-surface text-primary dark:text-primary font-headline-md text-headline-md docked full-width top-0 bg-surface dark:bg-surface border-b border-surface-variant/10 flat no shadows fixed top-0 w-full z-50 flex justify-between items-center px-gutter md:px-xl h-20">
+<button class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors duration-200 focus:outline-none">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">menu</span>
+</button>
+<div class="font-display text-headline-md font-bold text-on-surface dark:text-on-surface text-center">
+            Afro House Awards
+        </div>
+<div class="hidden md:flex gap-6 items-center">
+<a class="text-primary dark:text-primary hover:text-primary transition-colors duration-200 font-label-caps text-label-caps" href="#">HOME</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors duration-200 font-label-caps text-label-caps" href="#">CATEGORIES</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors duration-200 font-label-caps text-label-caps" href="#">MY VOTES</a>
+</div>
+<button class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors duration-200 focus:outline-none">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">account_circle</span>
+</button>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-grow flex flex-col">
+<!-- Hero Section -->
+<section class="relative w-full h-[70vh] md:h-[80vh] flex items-center justify-center overflow-hidden">
+<!-- Background Image -->
+<div class="absolute inset-0 z-0">
+<img alt="Afro House Rave" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUHDsioykqODL7gJBqP6d1j7Aacv1u4r67uwT5kpk9acHHhFV3Ugx0puJZOmfOoehFSM3CQPRjQ2mn0a0ykvjXtIgsoYkp73qTv2n40I4Z1W_GVG2P92tjUpA1plvdN0WDQ1LP4IeaKS4T3s7iw1CuIgNVD1lu5DX9XYhSl3DZgJYrpjkeNt5H6sVQ5kpHaRNiyfrUBEMB9y-sE6ZmpJh4T062W3n-a04osGHsOzRZ4Ve-c9WdnJD_aw"/>
+<div class="absolute inset-0 bg-background/80 bg-gradient-to-t from-background via-background/60 to-transparent"></div>
+</div>
+<!-- Hero Content -->
+<div class="relative z-10 text-center px-gutter md:px-xl max-w-container-max mx-auto w-full flex flex-col items-center gap-md">
+<h1 class="font-display text-headline-lg-mobile md:text-display text-on-surface uppercase tracking-tight leading-tight">
+                    Afro House Awards<br/>
+<span class="text-primary-container">Vote Your Champions</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mt-4">
+                    Celebrate the rhythm, honor the heritage.
+                </p>
+<div class="mt-lg">
+<a class="inline-flex items-center justify-center bg-primary-container text-white font-button text-button px-8 py-4 rounded-full hover:bg-primary-container/90 transition-colors" href="#trending">
+                        Start Voting
+                        <span class="material-symbols-outlined ml-2 text-[20px]" style="font-variation-settings: 'FILL' 0;">arrow_downward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Trending Categories Section -->
+<section class="w-full py-xl px-gutter md:px-xl max-w-container-max mx-auto" id="trending">
+<div class="flex flex-col gap-sm mb-lg">
+<h2 class="font-headline-lg-mobile md:text-headline-lg text-on-surface border-l-4 border-primary-container pl-4">Trending Categories</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">The most hotly contested awards of the year.</p>
+</div>
+<!-- Bento Grid Layout for Categories -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Best DJ - Featured Large Card -->
+<a class="md:col-span-8 group relative bg-surface-container-high rounded-xl overflow-hidden border border-outline-variant/10 hover:border-primary-container/50 transition-all duration-300 h-[400px] flex flex-col justify-end p-lg" href="#">
+<div class="absolute inset-0 z-0 rhythmic-pattern-1 opacity-20 group-hover:opacity-40 transition-opacity duration-500"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/90 via-surface-dim/40 to-transparent z-10"></div>
+<div class="relative z-20 flex flex-col gap-sm">
+<div class="inline-flex px-3 py-1 bg-surface-container-highest rounded-full border border-outline-variant/20 self-start mb-2">
+<span class="font-label-caps text-label-caps text-primary">Featured</span>
+</div>
+<h3 class="font-headline-lg-mobile md:text-headline-lg text-on-surface group-hover:text-primary transition-colors">Best DJ</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">The maestros who orchestrate the rhythm and move the crowd. Vote for the ultimate sound architect.</p>
+<div class="mt-4 flex items-center gap-2 text-primary font-button text-button group-hover:translate-x-2 transition-transform">
+                            Vote Now <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</div>
+</div>
+</a>
+<!-- Best Song & Best Rave - Stacked Cards -->
+<div class="md:col-span-4 flex flex-col gap-gutter h-full">
+<!-- Best Song -->
+<a class="flex-1 group relative bg-surface-container-high rounded-xl overflow-hidden border border-outline-variant/10 hover:border-primary-container/50 transition-all duration-300 min-h-[188px] flex flex-col justify-end p-md" href="#">
+<div class="absolute inset-0 z-0 rhythmic-pattern-2 opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/90 to-transparent z-10"></div>
+<div class="relative z-20">
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">Best Song</h3>
+<p class="font-body-md text-sm text-on-surface-variant mt-1 line-clamp-2">The anthems that defined the year.</p>
+<div class="mt-3 flex items-center gap-2 text-primary font-button text-button opacity-0 group-hover:opacity-100 transition-opacity">
+                                Vote <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+</a>
+<!-- Best Rave -->
+<a class="flex-1 group relative bg-surface-container-high rounded-xl overflow-hidden border border-outline-variant/10 hover:border-primary-container/50 transition-all duration-300 min-h-[188px] flex flex-col justify-end p-md" href="#">
+<div class="absolute inset-0 z-0 rhythmic-pattern-3 opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/90 to-transparent z-10"></div>
+<div class="relative z-20">
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">Best Rave</h3>
+<p class="font-body-md text-sm text-on-surface-variant mt-1 line-clamp-2">Unforgettable nights of pure energy.</p>
+<div class="mt-3 flex items-center gap-2 text-primary font-button text-button opacity-0 group-hover:opacity-100 transition-opacity">
+                                Vote <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="mt-lg text-center">
+<a class="inline-flex items-center justify-center bg-transparent text-on-surface font-button text-button px-6 py-3 rounded-full border border-on-surface/20 hover:border-primary-container hover:text-primary-container transition-colors" href="#">
+                    View All Categories
+                </a>
+</div>
+</section>
+<!-- Latest Nominees Preview (Placeholder for depth) -->
+<section class="w-full py-xl bg-surface-container-low border-t border-outline-variant/5">
+<div class="px-gutter md:px-xl max-w-container-max mx-auto">
+<div class="flex flex-col gap-sm mb-lg text-center items-center">
+<h2 class="font-headline-lg-mobile md:text-headline-lg text-on-surface">Discover Nominees</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">Explore the artists nominated for this year's awards.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-sm md:gap-md">
+<!-- Placeholder skeleton cards to show layout -->
+<div class="aspect-square bg-surface-container-high rounded-xl border border-outline-variant/10 flex items-center justify-center relative overflow-hidden group">
+<div class="absolute inset-0 bg-surface-variant/20 animate-pulse"></div>
+<span class="material-symbols-outlined text-surface-variant text-display opacity-20">person</span>
+</div>
+<div class="aspect-square bg-surface-container-high rounded-xl border border-outline-variant/10 flex items-center justify-center relative overflow-hidden group">
+<div class="absolute inset-0 bg-surface-variant/20 animate-pulse delay-75"></div>
+<span class="material-symbols-outlined text-surface-variant text-display opacity-20">person</span>
+</div>
+<div class="aspect-square bg-surface-container-high rounded-xl border border-outline-variant/10 flex items-center justify-center relative overflow-hidden group">
+<div class="absolute inset-0 bg-surface-variant/20 animate-pulse delay-150"></div>
+<span class="material-symbols-outlined text-surface-variant text-display opacity-20">person</span>
+</div>
+<div class="aspect-square bg-surface-container-high rounded-xl border border-outline-variant/10 flex items-center justify-center relative overflow-hidden group">
+<div class="absolute inset-0 bg-surface-variant/20 animate-pulse delay-300"></div>
+<span class="material-symbols-outlined text-surface-variant text-display opacity-20">person</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest dark:bg-surface-container-lowest text-primary dark:text-primary font-body-md text-body-md full-width bg-surface-container-lowest dark:bg-surface-container-lowest border-t border-outline-variant/20 flat no shadows w-full py-xl px-gutter md:px-xl flex flex-col md:flex-row justify-between items-center gap-md">
+<div class="font-display text-headline-md text-on-surface">
+            Afro House Awards
+        </div>
+<div class="flex flex-wrap justify-center gap-md text-on-surface-variant">
+<a class="hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="hover:text-primary transition-colors" href="#">Contact Us</a>
+<a class="hover:text-primary transition-colors" href="#">About</a>
+</div>
+<div class="text-on-surface-variant text-sm">
+            © 2024 Afro House Awards. Celebrating Heritage Modernism.
+        </div>
+</footer>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="bg-surface-container dark:bg-surface-container text-primary dark:text-primary font-label-caps text-label-caps docked full-width bottom-0 border-t border-outline-variant/10 flat no shadows fixed bottom-0 w-full z-50 flex justify-around items-center h-16 pb-safe md:hidden">
+<a class="flex flex-col items-center justify-center text-primary dark:text-primary font-bold w-1/4 h-full hover:bg-surface-bright dark:hover:bg-surface-bright transition-colors" href="#">
+<span class="material-symbols-outlined mb-1 text-[24px]" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="text-[10px] uppercase tracking-wider">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-on-surface-variant w-1/4 h-full hover:bg-surface-bright dark:hover:bg-surface-bright transition-colors" href="#">
+<span class="material-symbols-outlined mb-1 text-[24px]" style="font-variation-settings: 'FILL' 0;">grid_view</span>
+<span class="text-[10px] uppercase tracking-wider">Categories</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-on-surface-variant w-1/4 h-full hover:bg-surface-bright dark:hover:bg-surface-bright transition-colors" href="#">
+<span class="material-symbols-outlined mb-1 text-[24px]" style="font-variation-settings: 'FILL' 0;">how_to_vote</span>
+<span class="text-[10px] uppercase tracking-wider">My Votes</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-on-surface-variant w-1/4 h-full hover:bg-surface-bright dark:hover:bg-surface-bright transition-colors" href="#">
+<span class="material-symbols-outlined mb-1 text-[24px]" style="font-variation-settings: 'FILL' 0;">person</span>
+<span class="text-[10px] uppercase tracking-wider">Profile</span>
+</a>
+</nav>
+</body></html>

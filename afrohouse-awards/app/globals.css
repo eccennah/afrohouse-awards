@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  --background: #131313;
+  --foreground: #e5e2e1;
+  --surface-low: #1c1b1b;
+  --surface-high: #2a2a2a;
+  --surface-highest: #353534;
+  --primary: #e2703a;
+  --primary-light: #ffb596;
+  --muted: #dec0b5;
+  --outline: rgba(222, 192, 181, 0.16);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-hanken-grotesk);
+  --font-display: var(--font-syne);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-hanken-grotesk), sans-serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.hero-glow {
+  background-image:
+    linear-gradient(135deg, rgba(255, 181, 150, 0.16), transparent 35%),
+    radial-gradient(circle at top left, rgba(226, 112, 58, 0.28), transparent 42%);
+}
+
+.grain-overlay {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 22px 22px;
+  mix-blend-mode: soft-light;
+  opacity: 0.28;
+}
+
+.card-shell {
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
+}
+
+.rhythmic-pattern-1 {
+  background-image: radial-gradient(circle at 2px 2px, rgba(226, 112, 58, 0.24) 1px, transparent 0);
+  background-size: 26px 26px;
+}
+
+.rhythmic-pattern-2 {
+  background-image: repeating-linear-gradient(45deg, rgba(226, 112, 58, 0.12) 0, rgba(226, 112, 58, 0.12) 2px, transparent 2px, transparent 12px);
+}
+
+.rhythmic-pattern-3 {
+  background-image: radial-gradient(circle at center, rgba(226, 112, 58, 0.16) 0%, transparent 72%);
+}
