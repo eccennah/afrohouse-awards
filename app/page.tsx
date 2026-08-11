@@ -96,7 +96,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.04),transparent_25%)]" />
               <div className="absolute bottom-0 left-0 h-24 w-full rounded-t-full bg-gradient-to-t from-[#0D0B0C]/90 to-transparent" />
               <div className="relative z-10 flex h-full flex-col justify-end gap-6">
-                <span className="text-xs uppercase tracking-[0.28em] text-[#2ED9A8]">Featured Sleeve</span>
+        
                 <div>
                   <h3 className="font-display text-4xl font-bold text-white">Best DJ</h3>
 
