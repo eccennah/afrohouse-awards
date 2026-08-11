@@ -61,7 +61,6 @@ export default function Home() {
                   Afro House Awards
                 </h1>
               </div>
-              <p className="max-w-xl text-lg leading-8 text-[#F4EDE4]/85">Minimal, tactile landing page design built around the record sleeve concept — clean, bold, and ready for the vote.</p>
               <div className="flex flex-wrap justify-center gap-4 md:justify-start">
                 <Link href="/vote" className="inline-flex items-center gap-3 rounded-full bg-[#E8623D] px-8 py-4 text-sm font-semibold text-white shadow-[0_14px_40px_rgba(232,98,61,0.28)] transition duration-200 hover:bg-[#ff7a3d]">Vote Now <Arrow /></Link>
                 <Link href="/my-votes" className="inline-flex rounded-full border border-[#8A8177]/20 bg-[#14100f] px-8 py-4 text-sm font-semibold text-[#F4EDE4] transition duration-200 hover:border-[#2ED9A8] hover:text-[#2ED9A8]">My Votes</Link>
@@ -91,7 +90,6 @@ export default function Home() {
         <section id="trending" className="mx-auto w-full max-w-[1280px] px-5 py-20 md:px-20">
           <div className="mb-12 flex flex-col gap-3">
             <h2 className="font-display text-[clamp(3rem,6vw,4.8rem)] uppercase tracking-[-0.05em] text-white">CATEGORIES</h2>
-            <p className="max-w-2xl text-[#8A8177]">A set of record sleeves for the year’s top awards — selected with clarity and style.</p>
           </div>
           <div className="grid gap-6 md:grid-cols-12">
             <Link href="/vote" className="md:col-span-8 relative overflow-hidden rounded-[28px] border border-[#4A1F2B]/60 bg-[#4A1F2B] p-8 shadow-[0_28px_80px_rgba(0,0,0,0.25)] transition duration-200 hover:-translate-y-1 hover:border-[#2ED9A8]/50">
@@ -101,7 +99,7 @@ export default function Home() {
                 <span className="text-xs uppercase tracking-[0.28em] text-[#2ED9A8]">Featured Sleeve</span>
                 <div>
                   <h3 className="font-display text-4xl font-bold text-white">Best DJ</h3>
-                  <p className="mt-4 max-w-xl text-sm leading-7 text-[#F4EDE4]/85">The vinyl cover for the biggest sound architects — a sleeve built for bold iconography and easy voting.</p>
+
                 </div>
                 <span className="inline-flex items-center gap-2 font-semibold text-[#E8623D]">Vote Now <Arrow /></span>
               </div>
