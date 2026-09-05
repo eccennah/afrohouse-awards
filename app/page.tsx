@@ -57,9 +57,13 @@ export default function Home() {
           <div className="relative z-10 mx-auto grid w-full max-w-[1280px] gap-12 md:grid-cols-[1.1fr_0.9fr] items-center">
             <div className="space-y-8 text-center md:text-left">
               <div>
-                <h1 className="mt-6 max-w-3xl font-display text-[clamp(3rem,7vw,5.2rem)] uppercase leading-[0.92] tracking-[-0.05em] text-white">
-                  Afro House Awards
-                </h1>
+                <div className="w-full overflow-hidden">
+                   <h1 className="mt-6 w-max font-display text-[clamp(3rem,7vw,5.2rem)] uppercase leading-[0.92] tracking-[-0.05em] text-white">
+                    <span className="inline-block animate-marquee md:animate-none">
+                      Afro House Awards
+                    </span>
+                   </h1>
+                </div>
               </div>
               <div className="flex flex-wrap justify-center gap-4 md:justify-start">
                 <Link href="/vote" className="inline-flex items-center gap-3 rounded-full bg-[#E8623D] px-8 py-4 text-sm font-semibold text-white shadow-[0_14px_40px_rgba(232,98,61,0.28)] transition duration-200 hover:bg-[#ff7a3d]">Vote Now <Arrow /></Link>

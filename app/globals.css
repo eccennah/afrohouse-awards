@@ -12,6 +12,7 @@
   --outline: rgba(148, 123, 119, 0.16);
 }
 
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -36,6 +37,27 @@ body {
 button,
 a {
   -webkit-tap-highlight-color: transparent;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-100vw + 40px));
+  }
+}
+
+@media (max-width: 767px) {
+  .animate-marquee {
+    animation: marquee 6s linear infinite alternate;
+  }
+}
+
+@media (min-width: 768px) {
+  .animate-marquee {
+    animation: none;
+  }
 }
 
 .hero-glow {
