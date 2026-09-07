@@ -43,7 +43,7 @@ export default function MyVotesPage() {
     <main className="min-h-screen bg-[#0e0d0d] px-5 pb-24 pt-28 text-[#e5e2e1] sm:px-8 md:px-16 lg:px-20">
       <div className="mx-auto flex max-w-[1100px] flex-col gap-8">
         <header className="space-y-4 text-center">
-          <p className="inline-flex rounded-full border border-[#e2703a]/25 bg-[#1d1410]/90 px-4 py-2 text-xs uppercase tracking-[0.3em] text-[#ffb596]">Your Vote</p>
+          <p className="inline-flex rounded-full border border-[#FF3131]/25 bg-[#1d1410]/90 px-4 py-2 text-xs uppercase tracking-[0.3em] text-[#FF3131]">Your Vote</p>
           <h1 className="font-display text-4xl font-bold md:text-5xl">My Votes</h1>
         </header>
 
@@ -60,10 +60,10 @@ export default function MyVotesPage() {
             </div>
           </section>
         ) : (
-          <section className="rounded-[2rem] border border-white/10 bg-[#121010] p-8 text-center shadow-[0_24px_70px_-40px_rgba(226,112,58,0.9)]">
+          <section className="rounded-[2rem] border border-white/10 bg-[#121010] p-8 text-center shadow-[0_24px_70px_-40px_rgba(255,49,49,0.9)]">
             <p className="text-lg font-semibold text-white">Looks like you haven&apos;t voted yet.</p>
             <p className="mt-3 max-w-2xl mx-auto text-sm leading-7 text-[#cfc1b5]">Head to the voting page to choose your favorite DJ and keep your selection visible here.</p>
-            <Link href="/vote" className="mt-8 inline-flex rounded-full bg-[#e2703a] px-8 py-3 text-sm font-semibold text-[#111] transition hover:bg-[#ffb596]">Go Vote Now</Link>
+            <Link href="/vote" className="mt-8 inline-flex rounded-full bg-[#FF3131] px-8 py-3 text-sm font-semibold text-[#111] transition hover:bg-[#FF5C5C]">Go Vote Now</Link>
           </section>
         )}
       </div>

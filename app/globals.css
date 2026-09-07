@@ -6,7 +6,7 @@
   --surface-low: #140F10;
   --surface-high: #4A1F2B;
   --surface-highest: #2A161F;
-  --primary: #E8623D;
+  --primary: #FF3131;
   --accent: #2ED9A8;
   --muted: #8A8177;
   --outline: rgba(148, 123, 119, 0.16);
@@ -38,34 +38,6 @@ button,
 a {
   -webkit-tap-highlight-color: transparent;
 }
-@keyframes marquee {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(calc(-100vw + 40px));
-  }
-}
-
-@media (max-width: 767px) {
-  .animate-marquee {
-    animation: marquee 6s linear infinite alternate;
-  }
-}
-
-@media (min-width: 768px) {
-  .animate-marquee {
-    animation: none;
-  }
-}
-
-.hero-glow {
-  background-image:
-    radial-gradient(circle at top left, rgba(46, 217, 168, 0.12), transparent 28%),
-    radial-gradient(circle at bottom right, rgba(232, 98, 61, 0.14), transparent 24%);
-}
-
 .grain-overlay {
   background-image: linear-gradient(rgba(244, 237, 228, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(244, 237, 228, 0.03) 1px, transparent 1px);
   background-size: 18px 18px;
@@ -73,29 +45,6 @@ a {
   opacity: 0.16;
 }
 
-.groove-lines {
-  background-image:
-    radial-gradient(circle, transparent 46%, rgba(244, 237, 228, 0.08) 47%, transparent 48%),
-    radial-gradient(circle, transparent 60%, rgba(244, 237, 228, 0.05) 61%, transparent 62%),
-    radial-gradient(circle, transparent 74%, rgba(244, 237, 228, 0.03) 75%, transparent 76%);
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .card-shell {
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
-}
-
-.record {
-  animation: spin 18s linear infinite;
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
